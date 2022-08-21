@@ -1,15 +1,26 @@
 import React from 'react';
 
 import './App.css';
-import { UseEffectFetchData } from './UseEffectFetchData';
-import { UseEffectBasics } from './UseEffectBasics';
-import { UseEffectCleanUp } from './UseEffectCleanUp';
+import { UseEffectFetchData } from './UseEffect/UseEffectFetchData';
+import { UseEffectBasics } from './UseEffect/UseEffectBasics';
+import { UseEffectCleanUp } from './UseEffect/UseEffectCleanUp';
+import MultipleReturns from './UseEffect/MultipleReturns';
+import { ShortCircuit } from './UseEffect/ShortCircuit';
+import { TernaryOperator } from './UseEffect/TernaryOperator';
+import { ControlledInput } from './forms/ControlledInput';
+import { MultipleInput } from './forms/MultipleInput';
+
 
 function App() {
   return <>
       {/* <UseEffectBasics /> */}
       {/* <UseEffectCleanUp /> */}
-      <UseEffectFetchData />
+      {/* <UseEffectFetchData /> */}
+      {/* <MultipleReturns /> */}
+      {/* <ShortCircuit /> */}
+      {/* <TernaryOperator /> */}
+      <ControlledInput />
+      <MultipleInput />
   </>
 }
 
