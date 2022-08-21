@@ -9,6 +9,7 @@ import { ShortCircuit } from './UseEffect/ShortCircuit';
 import { TernaryOperator } from './UseEffect/TernaryOperator';
 import { ControlledInput } from './forms/ControlledInput';
 import { MultipleInput } from './forms/MultipleInput';
+import { InputForm } from './UseRef/InputForm';
 
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
       {/* <MultipleReturns /> */}
       {/* <ShortCircuit /> */}
       {/* <TernaryOperator /> */}
-      <ControlledInput />
-      <MultipleInput />
+      {/* <ControlledInput /> */}
+      {/* <MultipleInput /> */}
+      <InputForm />
   </>
 }
 
